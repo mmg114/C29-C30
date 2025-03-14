@@ -8,7 +8,7 @@ public class Main {
 
        Scanner sc = new Scanner(System.in);
 
-     /*    System.out.println("Ingrese su edad: ");
+       System.out.println("Ingrese su edad: ");
         int edad = sc.nextInt();
 
 
@@ -17,7 +17,7 @@ public class Main {
         } else if (edad >= 18) {
             System.out.println("Bienvenido");
         }
-*/
+
         System.out.println("Ingrese la hora de la reserva 7-11");
         int horaReserva = sc.nextInt();
         switch (horaReserva){
