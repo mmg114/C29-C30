@@ -8,6 +8,5 @@ public class Main {
 
         gato.emitirSonido();
         perro.emitirSonido();
-
     }
 }
