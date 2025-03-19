@@ -1,11 +1,14 @@
 package clase8;
 
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class MainEjercicios {
 
-    public static void main(String[] args) {
+    private static final Logger logger = Logger.getLogger(MainEjercicios.class.getName());
 
+    public static void main(String[] args) {
+        int res = 20/0;
         var suma=0;
         for (int i = 0; i <= 100; i++) {
             suma = suma+i;
