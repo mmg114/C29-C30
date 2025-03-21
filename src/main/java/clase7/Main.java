@@ -11,6 +11,7 @@ public class Main {
        System.out.println("Ingrese su edad: ");
         int edad = sc.nextInt();
 
+        int suma = 0;
 
         if (edad < 18) {
             System.out.println("El edad debe ser mayor de 18");
